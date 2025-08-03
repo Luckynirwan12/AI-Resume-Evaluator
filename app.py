@@ -2,6 +2,7 @@ import os
 import io
 import base64
 import pdf2image
+import fitz
 import streamlit as st
 import google.generativeai as genai
 from dotenv import load_dotenv
